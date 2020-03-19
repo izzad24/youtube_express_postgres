@@ -1,0 +1,23 @@
+{
+   "type": "postgres",
+   "host": "rajje.db.elephantsql.com",
+   "username": "fmvwmkeh",
+   "password": "LE8gEPIYcMu6Qq7vUf1Fu2zFM29q6_zE",
+   "database": "fmvwmkeh",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
